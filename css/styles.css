@@ -3,6 +3,7 @@
   --text: #010c86;
   --muted: #00700f;
   --maxw: 1100px;
+  scroll-behavior: smooth;
 }
 
 * { box-sizing: border-box; }
@@ -141,3 +142,4 @@ body {
   }
   .main-nav ul.show { display: flex; }
 }
+
