@@ -3,10 +3,12 @@
   --text: #010c86;
   --muted: #00700f;
   --maxw: 1100px;
-  scroll-behavior: smooth;
 }
 
-* { box-sizing: border-box; }
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
 
 body {
   font-family: system-ui, Arial, sans-serif;
@@ -142,4 +144,5 @@ body {
   }
   .main-nav ul.show { display: flex; }
 }
+
 
